@@ -449,26 +449,37 @@
         }
 
         function showProjectModal(project) {
-            const modal = document.getElementById('projectModal');
-            document.getElementById('modalTitle').textContent = project.title;
-            document.getElementById('modalCategory').textContent = project.category;
-            document.getElementById('modalStatus').textContent = project.status;
-            document.getElementById('modalDate').textContent = project.date ? project.date.raw : '';
-            document.getElementById('modalDescription').textContent = project.description;
-            document.getElementById('modalImage').src = project.thumbnailUrl;
-            document.getElementById('modalImage').onerror = function() {
-                this.style.display = 'none';
-            };
-            
-            if (project.publicUrl) {
-                document.getElementById('modalLink').href = project.publicUrl;
-                document.getElementById('modalLink').style.display = 'inline-block';
-            } else {
-                document.getElementById('modalLink').style.display = 'none';
-            }
-            
-            modal.style.display = 'block';
-        }
+    const modal = document.getElementById('projectModal');
+    const modalImage = document.getElementById('modalImage');
+    
+    document.getElementById('modalTitle').textContent = project.title;
+    document.getElementById('modalCategory').textContent = project.category;
+    document.getElementById('modalStatus').textContent = project.status;
+    document.getElementById('modalDate').textContent = project.date ? project.date.raw : '';
+    document.getElementById('modalDescription').textContent = project.description;
+    
+    // Reset image display and set source
+    modalImage.style.display = 'block';
+    
+    if (project.thumbnailUrl) {
+        modalImage.src = project.thumbnailUrl;
+        modalImage.onerror = function() {
+            this.style.display = 'none';
+        };
+    } else {
+        // No thumbnail - hide the image element
+        modalImage.style.display = 'none';
+    }
+    
+    if (project.publicUrl) {
+        document.getElementById('modalLink').href = project.publicUrl;
+        document.getElementById('modalLink').style.display = 'inline-block';
+    } else {
+        document.getElementById('modalLink').style.display = 'none';
+    }
+    
+    modal.style.display = 'block';
+}
 
         // Modal close handler
         document.querySelector('.modal-close').addEventListener('click', function() {
