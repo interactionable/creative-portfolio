@@ -389,6 +389,9 @@
 
         async function loadProjects() {
             try {
+            	
+            	/**** Comment out the code below if you're fetching notes from GitHub  
+            	
                 const response = await fetch('./notes/');
                 const html = await response.text();
                 
@@ -401,7 +404,25 @@
 
                 if (links.length === 0) {
                     throw new Error('No markdown files found in /notes/ folder.');
-                }
+                }****/
+                
+                
+                
+                /**** Comment out the code below if you're fetching notes from GitHub ****/ 
+            
+                 const response = await fetch('https://api.github.com/repos/interactionable/creative-portfolio/contents/notes?ref=main');
+        const files = await response.json();
+        const projects = files
+            .filter(file => file.name.endsWith('.md'))
+            .map(file => ({
+                id: file.name.replace('.md', ''),
+                title: file.name.replace('.md', '').replace(/-/g, ' '),
+                url: file.download_url
+            }));
+                    if (projects.length === 0) throw new Error('No markdown files');
+
+                
+                
 
                 for (const filename of links) {
                     try {
