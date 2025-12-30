@@ -6,7 +6,11 @@
     <title>Project Network Graph</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
     <style>
         * {
             margin: 0;
@@ -15,8 +19,8 @@
         }
 
         body {
-            font-family: 'Tomorrow', sans-serif;
-            background: #f5f5f5;
+            font-family: "Courier Prime", sans serif, monospace;
+            background: white;
             color: #333;
         }
 
@@ -45,9 +49,9 @@
         .controls {
             background: white;
             padding: 20px;
-            border-radius: 8px;
+            /* border-radius: 8px; */
             margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
             display: flex;
             gap: 20px;
             flex-wrap: wrap;
@@ -236,6 +240,15 @@
         .modal-link:hover {
             background: #1a4d3f;
         }
+        
+        #timeline-container {
+            display: none; 
+            background: white; 
+            padding: 20px; 
+            /* border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+            margin-bottom: 20px;
+            }
 
         .timeline-item {
             display: flex;
@@ -310,7 +323,7 @@
                             <label for="statusInProgress">In progress</label>
                         </div>
                         <div class="checkbox-item">
-                            <input type="checkbox" id="statusNotStarted" value="Not started" unchecked />
+                            <input type="checkbox" id="statusNotStarted" value="Not started" checked />
                             <label for="statusNotStarted">Not started</label>
                         </div>
                     </div>
@@ -334,7 +347,7 @@
 
         <div id="canvas-container"></div>
 
-        <div id="timeline-container" style="display: none; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        <div id="timeline-container">
             <h2 style="font-size: 20px; margin-bottom: 20px; color: #1a1a1a;">Timeline</h2>
             <div id="timeline"></div>
         </div>
@@ -1085,6 +1098,7 @@
                         p.textAlign(p.CENTER);
                         p.textSize(11);
                         p.textStyle(p.NORMAL);
+                        p.textFont('Courier New');
                         p.text(node.project.title, node.x, node.y + radius + 20);
                         p.globalAlpha = 1;
                     });
