@@ -3,7 +3,7 @@ title: Space Ecologies Art and Design (SEADS)
 date_started:
 date: 2008-01-01
 share_to_public: true
-thumbnail_URL:
+thumbnail_URL: "[[SEADSLogo.png]]"
 tags:
   - project
   - bioart
@@ -17,7 +17,7 @@ parent_node:
 notebookLLM_URL:
 perplexity_URL:
 chatGPT_URL:
-public_URL:
+public_URL: https://seads.network/
 description: SEADS (Space Ecologies Art and Design) is a transdisciplinary and cross-cultural collective of artists, scientists, engineers and activists. Its members come from all corners of the world, from places such as the Philippines, Belgium, the UK, Malaysia, Kosovo, and the US. SEADS is actively engaged in deconstructing dominant paradigms about the future and develops alternative models through a combination of critical inquiry and hands-on experimentation. I co-founded SEADS along with Angelo Vermeulen and Pieter Steyaert, and currently work for its Coordination Team.
 related_projects:
 ---
