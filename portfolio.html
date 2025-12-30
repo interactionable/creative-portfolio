@@ -388,110 +388,74 @@
         }
 
         async function loadProjects() {
-            try {
-            	
-            	/**** Comment out the code below if you're fetching notes from GitHub  
-            	
-                const response = await fetch('./notes/');
-                const html = await response.text();
-                
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const links = Array.from(doc.querySelectorAll('a'))
-                    .map(a => a.href)
-                    .filter(href => href.endsWith('.md'))
-                    .map(href => href.split('/').pop());
-
-                if (links.length === 0) {
-                    throw new Error('No markdown files found in /notes/ folder.');
-                }****/
-                
-                
-                
-                /**** Comment out the code below if you're fetching notes from GitHub ****/ 
-            
-                 const response = await fetch('https://api.github.com/repos/interactionable/creative-portfolio/contents/notes?ref=main');
+    try {
+        // GitHub API - WORKS ON GITHUB PAGES
+        const response = await fetch('https://api.github.com/repos/interactionable/creative-portfolio/contents/notes?ref=main');
         const files = await response.json();
         const projects = files
             .filter(file => file.name.endsWith('.md'))
             .map(file => ({
                 id: file.name.replace('.md', ''),
                 title: file.name.replace('.md', '').replace(/-/g, ' '),
-                url: file.download_url
+                url: file.download_url  // Use GitHub raw URL
             }));
-                    if (projects.length === 0) throw new Error('No markdown files found in GitHub notes/ folder');
-                    else console.log ("Found " + projects.length + " files");
+            
+        if (projects.length === 0) {
+            throw new Error('No markdown files found in GitHub notes/ folder');
+        }
+        console.log("Found " + projects.length + " files");
 
-                
-                
+        // Load content for EACH project using GitHub raw URLs
+        for (const project of projects) {
+            try {
+                const fileResponse = await fetch(project.url);  // Use project.url from API
+                const markdown = await fileResponse.text();
+                const frontmatter = parseFrontmatter(markdown);
 
-                for (const filename of links) {
-                    try {
-                        const fileResponse = await fetch(`./notes/${filename}`);
-                        const markdown = await fileResponse.text();
-                        const frontmatter = parseFrontmatter(markdown);
-
-                        if (frontmatter && frontmatter.status && frontmatter.category && frontmatter.description) {
-                            // Use frontmatter title if available, otherwise fallback to filename
-                            const title = frontmatter.title || filename.replace('.md', '');
-                            // Check if project should be shared publicly
-                            const shareToPublic = frontmatter.share_to_public !== false;
-                            
-                            // Try to parse date, fallback to date_started if date is invalid
-                            let parsedDate = parseDate(frontmatter.date);
-                            if (!parsedDate && frontmatter.date_started) {
-                                parsedDate = parseDate(frontmatter.date_started);
-                            }
-                            
-                            const project = {
-                                id: filename.replace('.md', '').toLowerCase(),
-                                title: title,
-                                date: parsedDate,
-                                status: frontmatter.status,
-                                category: frontmatter.category,
-                                description: frontmatter.description,
-                                thumbnailUrl: `/public/images/${parseWikiLink(frontmatter.thumbnail_URL)}`,
-                                parentNodes: parseWikiLink(frontmatter.parent_node) || [],
-                                relatedProjects: parseWikiLink(frontmatter.related_projects) || [],
-                                tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
-                                url: frontmatter.url || '/',
-                                publicUrl: getPublicUrl(frontmatter),
-                                shareToPublic: shareToPublic
-                            };
-                            
-                            // Only include projects marked for public sharing
-                            if (shareToPublic) {
-                                projectsData.push(project);
-                                projectsByTitle[title] = project;
-                            }
-                        }
-                    } catch (e) {
-                        console.error(`Error loading ${filename}:`, e);
+                if (frontmatter && frontmatter.status && frontmatter.category && frontmatter.description) {
+                    const title = frontmatter.title || project.title;
+                    const shareToPublic = frontmatter.share_to_public !== false;
+                    
+                    let parsedDate = parseDate(frontmatter.date);
+                    if (!parsedDate && frontmatter.date_started) {
+                        parsedDate = parseDate(frontmatter.date_started);
+                    }
+                    
+                    const finalProject = {
+                        id: project.id.toLowerCase(),
+                        title: title,
+                        date: parsedDate,
+                        status: frontmatter.status,
+                        category: frontmatter.category,
+                        description: frontmatter.description,
+                        thumbnailUrl: `/notes/images/${parseWikiLink(frontmatter.thumbnail_URL)}`,  // Fix path
+                        parentNodes: parseWikiLink(frontmatter.parent_node) || [],
+                        relatedProjects: parseWikiLink(frontmatter.related_projects) || [],
+                        tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
+                        url: frontmatter.url || '/',
+                        publicUrl: getPublicUrl(frontmatter),
+                        shareToPublic: shareToPublic
+                    };
+                    
+                    if (shareToPublic) {
+                        projectsData.push(finalProject);
+                        projectsByTitle[title] = finalProject;
                     }
                 }
-
-                if (projectsData.length === 0) {
-                    throw new Error('No valid projects found.');
-                }
-
-                document.getElementById('loading-message').style.display = 'none';
-                document.getElementById('controls-container').style.display = 'flex';
-
-                applyFilters();
-                populateCategoryFilter();
-                populateTagFilter();
-                renderTimeline();
-                document.getElementById('timeline-container').style.display = 'block';
-                initSketch();
-                setupEventListeners();
-
             } catch (e) {
-                console.error('Error loading projects:', e);
-                document.getElementById('loading-message').style.display = 'none';
-                document.getElementById('error-message').style.display = 'block';
-                document.getElementById('error-message').innerHTML = `<strong>Error:</strong> ${e.message}`;
+                console.error(`Error loading ${project.id}:`, e);
             }
         }
+        
+        console.log('Loaded projects:', projectsData);
+        initGraph(projectsData);  // Your graph function
+        
+    } catch (error) {
+        console.error('Load failed:', error);
+        document.body.innerHTML += '<p>Error: ' + error.message + '</p>';
+    }
+}
+
 
         function applyFilters() {
             filteredProjects = projectsData.filter(project => {
