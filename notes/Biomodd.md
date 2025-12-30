@@ -1,9 +1,9 @@
 ---
 title: Biomodd
 date_started:
-date: 2018-09-01
+date: 2009-09-01
 share_to_public: true
-thumbnail_URL:
+thumbnail_URL: "[[BiomoddATH1.jpg]]"
 tags:
   - project
   - biomodd
@@ -20,7 +20,7 @@ notebookLLM_URL:
 perplexity_URL:
 chatGPT_URL:
 public_URL: https://seads.network/hyperproject/biomodd
-description: Biomodd
+description: Biomodd is a collaborative community-engaged art project that creates new relationships between nature and technology across different cultures around the world. In Biomodd, nature and technology are fused into hybrid interactive art installations. The core idea is the co-creation of experimental systems in which recycled computers and living ecosystems coexist and mutually reinforce one another. The recycled computers are connected into a network that runs a custom computer game. In this game, visitors, plants and other organisms interact in endlessly varying ways. Biomodd is an ongoing series of temporary experiments. It is always being developed on site with local communities, and aims to ignite critical conversations about our ideas on ecology, progress and our technological future.
 ---
 
 > [!NOTE]+ # Todo 
