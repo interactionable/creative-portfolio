@@ -415,9 +415,17 @@ async function loadProjects() {
         // Step 2: Fetch each markdown file
         for (const fileInfo of markdownFiles) {
             try {
+                //console.log("fileInfo.download_url is ", fileInfo.download_url);
                 const fileResponse = await fetch(fileInfo.download_url);
                 const markdown = await fileResponse.text();
                 const frontmatter = parseFrontmatter(markdown);
+                
+                // Debug: Log frontmatter structure for first project only
+if (frontmatter && projectsData.length === 0) {
+    console.log('===== FRONTMATTER KEYS =====');
+    console.log('All keys:', Object.keys(frontmatter));
+    console.log('Full frontmatter:', frontmatter);
+}
 
                 if (frontmatter && frontmatter.status && frontmatter.category && frontmatter.description) {
                     const title = frontmatter.title || fileInfo.name.replace('.md', '');
@@ -429,25 +437,49 @@ async function loadProjects() {
                     }
 
                     const project = {
-                        id: fileInfo.name.replace('.md', '').toLowerCase().replace(/\s+/g, '-'),
-                        title: title,
-                        date: parsedDate,
-                        status: frontmatter.status,
-                        category: frontmatter.category,
-                        description: frontmatter.description,
-                        thumbnailUrl: parseWikiLink(frontmatter.thumbnailURL) || 'https://via.placeholder.com/120',
-                        parentNodes: parseWikiLink(frontmatter.parentnode) || [],
-                        relatedProjects: parseWikiLink(frontmatter.relatedprojects) || [],
-                        tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
-                        url: frontmatter.url,
-                        publicUrl: getPublicUrl(frontmatter),
-                        shareToPublic: shareToPublic
-                    };
+    id: fileInfo.name.replace('.md', '').toLowerCase().replace(/\s+/g, '-'),
+    title: title,
+    date: parsedDate,
+    status: frontmatter.status,
+    category: frontmatter.category,
+    description: frontmatter.description,
+    thumbnailUrl: parseWikiLink(frontmatter.thumbnail_URL) || 'https://via.placeholder.com/120',
+    
+    // FIX: Use snake_case field names matching your markdown
+    parentNodes: (() => {
+        const val = frontmatter.parent_node;
+        if (!val) return [];
+        if (typeof val === 'string') return [parseWikiLink(val)].filter(Boolean);
+        if (Array.isArray(val)) return val.map(v => parseWikiLink(v)).filter(Boolean);
+        return [];
+    })(),
+    
+    relatedProjects: (() => {
+        const val = frontmatter.related_projects;
+        if (!val) return [];
+        if (typeof val === 'string') return [parseWikiLink(val)].filter(Boolean);
+        if (Array.isArray(val)) return val.map(v => parseWikiLink(v)).filter(Boolean);
+        return [];
+    })(),
+    
+    tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
+    url: frontmatter.source,  // Changed from 'url' to 'source' based on your keys
+    publicUrl: frontmatter.public_URL || null,  // Use snake_case
+    shareToPublic: shareToPublic
+};
+
 
                     if (shareToPublic) {
-                        projectsData.push(project);
-                        projectsByTitle[title] = project;
-                    }
+                        console.log(`Project: ${title}`, {
+        parentNodes: project.parentNodes,
+        relatedProjects: project.relatedProjects,
+        frontmatterParentNode: frontmatter.parentnode,
+        frontmatterRelatedProjects: frontmatter.relatedprojects
+    });
+                    console.log("relatedProjects is ", project.relatedProjects);
+
+    projectsData.push(project);
+    projectsByTitle[title] = project;                    }
                 }
             } catch (e) {
                 console.error(`Error loading ${fileInfo.name}:`, e);
