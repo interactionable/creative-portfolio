@@ -888,7 +888,7 @@
                     filteredProjects.forEach(project => {
                         const p = this.p5Instance;
                         const connectionCount = connectionCounts[project.id] || 0;
-                        const baseSize = 8;
+                        const baseSize = 9;
                         const size = baseSize + connectionCount * 2.6;
 
                         this.nodes.push({
@@ -1186,14 +1186,34 @@
                 };
 
                 p.mousePressed = function() {
-                    for (let node of window.sketch.nodes) {
-                        if (p.dist(p.mouseX, p.mouseY, node.x, node.y) < node.size) {
-                            showProjectModal(node.project);
-                            return false;
-                        }
-                    }
-                    return false;
-                };
+    // Reverse the canvas transformations to get the actual node coordinates
+    let clickX = p.mouseX;
+    let clickY = p.mouseY;
+    
+    // Reverse pan
+    clickX -= window.sketch.panX;
+    clickY -= window.sketch.panY;
+    
+    // Reverse scale (zoom)
+    clickX = (clickX - p.width / 2) / window.sketch.zoomLevel + p.width / 2;
+    clickY = (clickY - p.height / 2) / window.sketch.zoomLevel + p.height / 2;
+    
+    // Reverse translation to center
+    clickX -= p.width / 2;
+    clickY -= p.height / 2;
+    clickX += p.width / 2;
+    clickY += p.height / 2;
+    
+    // Now check collision with nodes using transformed coordinates
+    for (let node of window.sketch.nodes) {
+        if (p.dist(clickX, clickY, node.x, node.y) < node.size) {
+            showProjectModal(node.project);
+            return false;
+        }
+    }
+    return false;
+};
+
 
                 p.mouseReleased = function() {
                     if (window.sketch.draggedNode) {
@@ -1218,10 +1238,28 @@
         return;
     }
     
+    // Reverse the canvas transformations to get the actual node coordinates
+    let hoverX = p.mouseX;
+    let hoverY = p.mouseY;
+    
+    // Reverse pan
+    hoverX -= window.sketch.panX;
+    hoverY -= window.sketch.panY;
+    
+    // Reverse scale (zoom)
+    hoverX = (hoverX - p.width / 2) / window.sketch.zoomLevel + p.width / 2;
+    hoverY = (hoverY - p.height / 2) / window.sketch.zoomLevel + p.height / 2;
+    
+    // Reverse translation to center
+    hoverX -= p.width / 2;
+    hoverY -= p.height / 2;
+    hoverX += p.width / 2;
+    hoverY += p.height / 2;
+    
     let newHoveredId = null;
     window.sketch.connectedNodeIds.clear();
     for (let node of window.sketch.nodes) {
-        if (p.dist(p.mouseX, p.mouseY, node.x, node.y) < node.size) {
+        if (p.dist(hoverX, hoverY, node.x, node.y) < node.size) {
             newHoveredId = node.id;
             window.sketch.connectedNodeIds = window.sketch.getConnectedNodes(node.id);
             break;
@@ -1230,6 +1268,7 @@
     
     window.sketch.hoveredNodeId = newHoveredId;
 };
+
 
                 p.windowResized = function() {
                     const canvasContainer = document.getElementById('canvas-container');
