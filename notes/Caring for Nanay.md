@@ -1,14 +1,14 @@
 ---
+status: 🌿 In progress
+description: Caring for Nanay
+category: Personal
 date_started:
 tags:
   - project
-status: 🫘 Not started
-category: Personal
 priority: 🔺
 source:
 UID: DS848250628
 title:
-description:
 related_projects:
 parent_node:
 date:

@@ -13,4 +13,4 @@ git commit -m "Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin main
 
 echo "✅ Synced to GitHub!"
-echo "🌐 Live at: https://yourusername.github.io/creative-portfolio/"
+echo "echo "🌐 Live at: https://interactionable.github.io/creative-portfolio/portfolio.html"
