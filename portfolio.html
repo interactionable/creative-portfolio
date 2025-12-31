@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diego S. Maranan - Mindmap</title>
+    <title>Diego S. Maranan - Project Mindmap</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 
@@ -309,7 +309,7 @@
 <body>
     <div class="container">
         <div id="loading-message" class="loading">
-            <p>Loading</p>
+            <p>Loading projects...</p>
             <p><img src="https://64.media.tumblr.com/82b7efbc2112d3ba45983553f1f8bbdb/tumblr_inline_ry4mh5fifc1r2gu39_500.gif" style="height: 50px;"/></p>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250px" height="246px" viewBox="0 0 150 148" version="1.1">
 <g id="surface1">
@@ -404,6 +404,11 @@
     </div>
 
     <script>
+        // ===== Check whether to show ALL projects including hidden ones ======
+        const urlParams = new URLSearchParams(window.location.search);
+        const showEvenHidden = urlParams.get('showEvenHidden') === 'true';
+
+    
         // ===== GITHUB CONFIGURATION =====
         const GITHUB_OWNER = 'interactionable';      
         const GITHUB_REPO = 'creative-portfolio';      
@@ -599,10 +604,11 @@
                                 shareToPublic: shareToPublic
                             };
 
-                            if (shareToPublic) {
+                            if (shareToPublic || showEvenHidden) {
                                 projectsData.push(project);
                                 projectsByTitle[title] = project;
                             }
+                            else console.log("showEvenHidden is ", showEvenHidden);
                         }
                     } catch (e) {
                         console.error(`Error loading ${fileInfo.name}:`, e);
