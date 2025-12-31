@@ -1,5 +1,5 @@
 ---
-title: '"Getting to Know You" game (card game? board game?)'
+title: Getting to Know You game (card game? board game)
 description: Inspired by Forest Foundation conversational cards
 related_projects:
   - "[[Psychopomp I]]"
@@ -11,7 +11,7 @@ parent_node:
 status: 🫘 Not started
 date:
 date_started:
-share_to_public: false
+share_to_public: true
 thumbnail_URL:
 public_URL:
 tags:
