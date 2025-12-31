@@ -4,7 +4,7 @@ tags:
   - UPISC
 status: 🫘 Not started
 source:
-category: Teaching
+category: Research and Creation
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
@@ -18,7 +18,7 @@ public_URL: " https://awhiworld.com/portfolio/alternative-reality-gardening/"
 title:
 date:
 share_to_public: false
-description: Write UPISC policy paper
+description: Write UPISC policy paper on impact
 related_projects:
 ---
 
