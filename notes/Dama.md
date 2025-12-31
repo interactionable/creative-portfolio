@@ -5,7 +5,7 @@ public_URL: https://zenodo.org/records/5812611
 thumbnail_URL: "[[Dama (Haplos v2.0)_01.png]]"
 date:
 status: 🫘 Not started
-share_to_public: true
+share_to_public: false
 category: Teaching
 images:
   - Dama (Haplos v2.0)_01.png

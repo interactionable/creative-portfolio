@@ -12,7 +12,7 @@ description:
 related_projects:
 parent_node:
 date:
-share_to_public: true
+share_to_public: false
 thumbnail_URL:
 public_URL:
 genAI_chat_URL:
