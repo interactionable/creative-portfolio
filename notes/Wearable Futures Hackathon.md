@@ -1,22 +1,25 @@
 ---
-title: Wearable Futures [Exhibition] (Oblation Hall, UPOU Los Baños, 2023)
-description: Held at UPOU’s Oblation Hall, Wearable Futures was a hybrid exhibition exploring the future of clothing through speculative design, wearable technology, and critical fashion practice. It featured interactive and conceptual outputs from undergraduate students and the 2022 Emerging Futurist Residency fellows.
-public_URL: https://bukas.upou.edu.ph/wearable-futures-exhibit
-thumbnail_URL: "[[Wearable Futures Exhibition (Oblation Ha_01.png]]"
-date: 2023-03-08
+title: Emerging Futurist in Residence Program 2024
+description: Wearable Futures was an exploratory class that I taught at UPOU's BAMS program,  exploring the future through speculative design, wearable technology, and critical fashion practice.
+public_URL: https://bukas.upou.edu.ph/wearable-futures-hackathon-2022
+thumbnail_URL: "[[Wearable Futures Exhibition (Parola Gall_01.png]]"
+date: 2023-04-29
 status: 🌳 Done
 share_to_public: true
 category: Teaching
 images:
-  - Wearable Futures Exhibition (Oblation Ha_01.png
-  - Wearable Futures Exhibition (Oblation Ha_02.png
-  - Wearable Futures Exhibition (Oblation Ha_03.png
-  - Wearable Futures Exhibition (Oblation Ha_04.png
-  - Wearable Futures Exhibition (Oblation Ha_05.png
-  - Wearable Futures Exhibition (Oblation Ha_06.png
+  - Wearable Futures Exhibition (Parola Gall_01.png
+  - Wearable Futures Exhibition (Parola Gall_02.png
+  - Wearable Futures Exhibition (Parola Gall_03.png
+  - Wearable Futures Exhibition (Parola Gall_04.png
+  - Wearable Futures Exhibition (Parola Gall_05.png
+  - Wearable Futures Exhibition (Parola Gall_06.png
+  - Wearable Futures Exhibition (Parola Gall_07.png
+  - Wearable Futures Exhibition (Parola Gall_08.png
 date_started:
 tags:
   - project
+  - futures
 source:
 priority: 🔺
 genAI_chat_URL:
@@ -27,6 +30,7 @@ notebookLLM_URL:
 perplexity_URL:
 chatGPT_URL:
 related_projects:
+  - "[[Space Ecologies Art and Design (SEADS)]]"
 ---
 
 > [!NOTE]+ # Todo 
@@ -129,10 +133,14 @@ related_projects:
 > #category/publicservice
 > #category/admin
 
-![[Wearable Futures Exhibition (Oblation Ha_01.png]]
+![[Wearable Futures Exhibition (Parola Gall_01.png]]
 
-# Wearable Futures [Exhibition] (Oblation Hall, UPOU Los Baños, 2023)
+# Wearable Futures [Exhibition] (Parola Gallery, UP Diliman, 2023)
 
-Held at UPOU’s Oblation Hall, Wearable Futures was a hybrid exhibition exploring the future of clothing through speculative design, wearable technology, and critical fashion practice. It featured interactive and conceptual outputs from undergraduate students and the 2022 Emerging Futurist Residency fellows.
+
+
+A second mounting of the Wearable Futures exhibition was presented at Parola Gallery, UP Diliman, bringing speculative wearables and future-centered clothing design to a wider academic and creative audience.
+
+
 
 [Website](https://bukas.upou.edu.ph/wearable-futures-exhibit)
