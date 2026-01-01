@@ -8,7 +8,7 @@ tags:
   - project
 status: 🌳 Done
 source:
-category: Teaching
+category: Research and creative work
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
