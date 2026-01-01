@@ -1,7 +1,7 @@
 ---
-title: Emerging Futurist in Residence Program 2024
+title: Wearable Futures Hackathon
 description: Wearable Futures was an exploratory class that I taught at UPOU's BAMS program,  exploring the future through speculative design, wearable technology, and critical fashion practice.
-public_URL: https://bukas.upou.edu.ph/wearable-futures-hackathon-2022
+public_URL: "[[Wearable Futures Exhibition (Parola Gall_01.png]]"
 thumbnail_URL: "[[Wearable Futures Exhibition (Parola Gall_01.png]]"
 date: 2023-04-29
 status: 🌳 Done
