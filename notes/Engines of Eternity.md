@@ -1,11 +1,12 @@
 ---
-title: Ēngines of Ēternity
+title: Engines of Eternity - Galíng
 date_started:
 date: 2022-04-25
 share_to_public: true
 thumbnail_URL: "[[Ēngines of Ēternity_ International Space_05.jpg]]"
 tags:
   - project
+  - space
 status: 🌳 Done
 source:
 category: Research and creative work

@@ -17,6 +17,7 @@ images:
 date_started:
 tags:
   - project
+  - space
 source:
 priority: 🔺
 genAI_chat_URL:
