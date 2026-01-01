@@ -1,9 +1,9 @@
 ---
-title: Engines of Eternity - Galíng
+title: Engines of Eternity
 date_started:
 date: 2022-04-25
 share_to_public: true
-thumbnail_URL: "[[Ēngines of Ēternity_ International Space_05.jpg]]"
+thumbnail_URL: "[[Engines of Eternity_ International Space_05.jpg]]"
 tags:
   - project
   - space
