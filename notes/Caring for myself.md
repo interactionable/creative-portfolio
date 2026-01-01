@@ -1,6 +1,6 @@
 ---
 date_started:
-description: Caring for myself
+description: Caring for Myself - check whether 'm' is capitalized
 tags:
   - project
   - health
