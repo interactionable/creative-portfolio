@@ -11,8 +11,9 @@ UID: DS848250628
 title:
 related_projects:
 parent_node:
+  - "[[Design for Your Loved Ones - Developing a Design Practice for Love, Care & Dying]]"
 date:
-share_to_public: false
+share_to_public: true
 thumbnail_URL:
 public_URL:
 genAI_chat_URL:

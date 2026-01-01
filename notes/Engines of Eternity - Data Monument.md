@@ -17,7 +17,6 @@ images:
 date_started:
 tags:
   - project
-  - engines-of-eternity
 source:
 priority: 🔺
 genAI_chat_URL:

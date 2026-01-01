@@ -4,7 +4,7 @@ date: 2025-12-31
 tags:
   - AI
   - design
-description: I developed a dynamic network visualization to map my research and creative projects, revealing connections across the domains I have worked in, including dance, futures studies, bioart, and computational design. This sense-making tool (built through collaborative "vibe-coding" with Perplexity AI) live-fetches my Obsidian markdown notes from GitHub and aims to surface relationships, dependencies, and emergent patterns in my practice that were previously invisible -- even to me.
+description: I developed a dynamic network visualization to map my research and creative projects, revealing connections across the domains I have worked in, including dance, futures studies, bioart, and computational design. This sense-making tool (built through vibe-coding using Perplexity AI) live-fetches my Obsidian markdown notes from GitHub and aims to surface relationships, dependencies, and emergent patterns in my practice that were previously invisible -- even to me.
 status: 🌳 Done
 category: Personal
 source:

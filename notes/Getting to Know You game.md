@@ -12,7 +12,7 @@ status: 🫘 Not started
 category: Research and creative work
 date:
 date_started:
-share_to_public: true
+share_to_public: false
 thumbnail_URL: "[[GettingToKnowYouGame.png]]"
 public_URL:
 tags:

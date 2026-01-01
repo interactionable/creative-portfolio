@@ -3,7 +3,7 @@ title: Engines of Eternity - International Space Station
 description: |
   A living art-science payload launched aboard a SpaceX rocket to the International Space Station in 2019, combining rotifer biology and symbolic visual artwork to explore posthuman resilience and space-based storytelling.
 public_URL: https://seads.network/project/engines-of-eternity
-thumbnail_URL: "[[Ēngines of Ēternity_ International Space_01.png]]"
+thumbnail_URL: "[[Ēngines of Ēternity_ International Space_02.png]]"
 date: 2022-04-25
 status: 🌳 Done
 share_to_public: true
@@ -16,7 +16,6 @@ images:
 date_started:
 tags:
   - project
-  - engines-of-eternity
 source:
 priority: 🔺
 genAI_chat_URL:

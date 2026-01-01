@@ -4,7 +4,7 @@ description: Dama is a new iteration of my Haplos wearable technology, reimagine
 public_URL: https://zenodo.org/records/5812611
 thumbnail_URL: "[[Dama (Haplos v2.0)_01.png]]"
 date:
-status: 🫘 Not started
+status: 🌿 In progress
 share_to_public: false
 category: Teaching
 images:
