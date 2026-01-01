@@ -1,8 +1,8 @@
 ---
 title: Wearable Futures Hackathon
 description: Wearable Futures was an exploratory class that I taught at UPOU's BAMS program,  exploring the future through speculative design, wearable technology, and critical fashion practice.
-public_URL: "[[Wearable Futures Exhibition (Parola Gall_01.png]]"
-thumbnail_URL: "[[Wearable Futures Exhibition (Parola Gall_01.png]]"
+public_URL: https://bukas.upou.edu.ph/wearable-futures-hackathon-2022
+thumbnail_URL: "[[Wearable Futures Exhibition (Parola Gall_07.png]]"
 date: 2023-04-29
 status: 🌳 Done
 share_to_public: true
@@ -31,6 +31,7 @@ perplexity_URL:
 chatGPT_URL:
 related_projects:
   - "[[Space Ecologies Art and Design (SEADS)]]"
+  - "[[Haplos]]"
 ---
 
 > [!NOTE]+ # Todo 
