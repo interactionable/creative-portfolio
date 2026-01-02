@@ -2,7 +2,6 @@
 date_started:
 tags:
   - project
-  - 7-Eleven-St704-711
 status: 🌿 In progress
 source:
 category: Personal

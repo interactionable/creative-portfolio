@@ -13,7 +13,7 @@ genAI_chat_URL:
 googledrive_URL:
 title: Caring for myself
 date: 2025-06-02
-share_to_public: true
+share_to_public: false
 thumbnail_URL: "[[DiegoPrototyping.jpeg]]"
 notebookLLM_URL:
 perplexity_URL:
