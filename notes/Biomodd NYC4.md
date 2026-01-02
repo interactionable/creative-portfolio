@@ -6,7 +6,7 @@ thumbnail_URL: "[[Biomodd NYC4_01.png]]"
 date: 2012-10-01
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
   - Biomodd NYC4_01.png
   - Biomodd NYC4_02.png

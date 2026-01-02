@@ -1,27 +1,28 @@
 ---
-title: v.2
-description: (Choreography) I had a chance to work with the phenomenally talented dancers of . Performed by Airdance Dance Company. In the usual course of their dancing, they push themselves incredibly hard, for opportunities that rarely offer good financial returns. I could see the toll that this had taken on their bodies. What I wanted to offer them was a chance to dance with as much lightness and ease as possible, and I led them through a structured improvisation workshop that eventually resulted in the final choreography, which was shown in July, 2009, at the fourth WiFi Body International Contemporary Dance Festival in Manila.
-public_URL:
-thumbnail_URL: "[[v.2_01.png]]"
-date: 2009-07-31
-status: 🌳 Done
-share_to_public: true
-category: Creative work
-images:
-  - v.2_01.png
 date_started:
 tags:
+  - ISDR
   - project
+  - embodiment
+status: 🫘 Not started
 source:
+category: Teaching
 priority: 🔺
+description: Development of a new somatic method
+title:
+related_projects:
+  - "[[Haplos]]"
+parent_node:
+date:
+share_to_public: true
+thumbnail_URL:
+public_URL:
 genAI_chat_URL:
 googledrive_URL:
-parent_node:
 notebookLLM_URL:
 perplexity_URL:
 chatGPT_URL:
-related_projects:
-  - "[[Promises Are Made to be Broken (2006 version)]]"
+UID:
 ---
 
 > [!NOTE]+ # Todo 
@@ -124,10 +125,58 @@ related_projects:
 > #category/publicservice
 > #category/admin
 
-![[v.2_01.png]]
+# Other notes and tasks
+* [ ] Get back into the Feldenkrais Method
+	* [ ] Schedule a solid week of doing the Frank Wildman stuff
+	* [ ] Set up my #ISDR notebook 
+		* [ ] Tag stuff from my previous Evernote entries
+			* [x] Important my Evernote 🔺 ✅ 2025-06-19
+	* [ ] Ask ChatGPT to help me structure my methodology for the development of the new somatic method (codename: tamad method)
+	
 
-# v.2
+# Other todo
+> [!check] Other to do
+> ```tasks
+> description includes {{query.file.filenameWithoutExtension}}
+> not done 
 
-(Choreography) I had a chance to work with the phenomenally talented dancers of . Performed by Airdance Dance Company. In the usual course of their dancing, they push themselves incredibly hard, for opportunities that rarely offer good financial returns. I could see the toll that this had taken on their bodies. What I wanted to offer them was a chance to dance with as much lightness and ease as possible, and I led them through a structured improvisation workshop that eventually resulted in the final choreography, which was shown in July, 2009, at the fourth WiFi Body International Contemporary Dance Festival in Manila.
+# Notes
 
-[Website](nan)
+
+# Mentions
+
+> [!CITE] BLOCKS
+>```dataviewjs
+> const target = dv.current().file.name; // Name of the note you want to find references to
+> const files = dv.pages().where(p => p.file.name !== target);
+> 
+> for (let page of files) {
+>   const content = await dv.io.load(page.file.path);
+>  const lines = content.split("\n");
+> 
+>   const matches = lines.filter(line => line.includes(`[[${target}]]`));
+>   if (matches.length > 0) {
+>     dv.header(3, page.file.name);
+>     for (let m of matches) {
+>       dv.paragraph(`> ${m}`);
+>    }
+>  }
+> }
+> ```
+
+> [!CITE]- BACKLINKS
+> ```dataview
+> list
+> where contains(file.outlinks, this.file.link)
+
+# Metadata
+> [!example] Suggested tags
+> #methods
+> #theory
+> #reflection
+> #analysis
+> #category/professionaldevelopment
+> #category/research-and-creativework
+> #category/teaching
+> #category/publicservice
+> #category/admin

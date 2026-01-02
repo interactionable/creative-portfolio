@@ -1,27 +1,27 @@
 ---
-title: v.2
-description: (Choreography) I had a chance to work with the phenomenally talented dancers of . Performed by Airdance Dance Company. In the usual course of their dancing, they push themselves incredibly hard, for opportunities that rarely offer good financial returns. I could see the toll that this had taken on their bodies. What I wanted to offer them was a chance to dance with as much lightness and ease as possible, and I led them through a structured improvisation workshop that eventually resulted in the final choreography, which was shown in July, 2009, at the fourth WiFi Body International Contemporary Dance Festival in Manila.
-public_URL:
-thumbnail_URL: "[[v.2_01.png]]"
-date: 2009-07-31
-status: 🌳 Done
-share_to_public: true
-category: Creative work
-images:
-  - v.2_01.png
+status: 🫘 Not started
+description: (THIS MUST BE FILLED IN)
+category: (Uncategorized)
+title: Reimagining Work - Workspaces for the Future - Critiquing the logics of work
+related_projects:
+  - "[[Caring for Myself]]"
+parent_node:
+date:
 date_started:
+share_to_public: false
+thumbnail_URL:
+public_URL:
 tags:
   - project
+  - futures
 source:
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
-parent_node:
 notebookLLM_URL:
 perplexity_URL:
 chatGPT_URL:
-related_projects:
-  - "[[Promises Are Made to be Broken (2006 version)]]"
+UID:
 ---
 
 > [!NOTE]+ # Todo 
@@ -123,11 +123,3 @@ related_projects:
 > #category/teaching
 > #category/publicservice
 > #category/admin
-
-![[v.2_01.png]]
-
-# v.2
-
-(Choreography) I had a chance to work with the phenomenally talented dancers of . Performed by Airdance Dance Company. In the usual course of their dancing, they push themselves incredibly hard, for opportunities that rarely offer good financial returns. I could see the toll that this had taken on their bodies. What I wanted to offer them was a chance to dance with as much lightness and ease as possible, and I led them through a structured improvisation workshop that eventually resulted in the final choreography, which was shown in July, 2009, at the fourth WiFi Body International Contemporary Dance Festival in Manila.
-
-[Website](nan)

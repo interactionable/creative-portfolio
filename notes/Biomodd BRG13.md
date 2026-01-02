@@ -6,7 +6,7 @@ thumbnail_URL: "[[Biomodd BRG13. Co-created multisensory i_01.png]]"
 date: 2021-06-25
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
   - Biomodd BRG13. Co-created multisensory i_01.png
   - Biomodd BRG13. Co-created multisensory i_02.png

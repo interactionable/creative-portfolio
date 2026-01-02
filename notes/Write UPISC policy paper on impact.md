@@ -4,7 +4,7 @@ tags:
   - UPISC
 status: 🫘 Not started
 source:
-category: Research and Creation
+category: Research
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:

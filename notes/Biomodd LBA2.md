@@ -6,7 +6,7 @@ thumbnail_URL: "[[Biomodd LBA2_01.png]]"
 date: 2009-09-24
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
   - Biomodd LBA2_01.png
   - Biomodd LBA2_02.png

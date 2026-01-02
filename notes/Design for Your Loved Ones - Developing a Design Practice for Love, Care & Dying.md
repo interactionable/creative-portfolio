@@ -6,7 +6,7 @@ tags:
   - project
 status: 🌿 In progress
 source:
-category: Research and creative work
+category: Design
 priority: 🔺
 date: 2024-06-01
 share_to_public: true

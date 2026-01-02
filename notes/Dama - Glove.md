@@ -6,7 +6,7 @@ thumbnail_URL: "[[Dama (Haplos v2.0)_01.png]]"
 date:
 status: 🌿 In progress
 share_to_public: false
-category: Teaching
+category: Design
 images:
   - Dama (Haplos v2.0)_01.png
 parent_node:

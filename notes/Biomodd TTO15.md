@@ -6,7 +6,7 @@ thumbnail_URL: "[[biomodd-tto15.png]]"
 date: 2024-09-03
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
 date_started:
 tags:

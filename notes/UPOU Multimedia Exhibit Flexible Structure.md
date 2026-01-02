@@ -6,7 +6,7 @@ thumbnail_URL: "[[UPOU Multimedia Exhibit Flexible Structu_01.png]]"
 date: 2020-02-20
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Design
 images:
   - UPOU Multimedia Exhibit Flexible Structu_01.png
 date_started:

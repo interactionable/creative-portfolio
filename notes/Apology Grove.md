@@ -6,7 +6,7 @@ thumbnail_URL: "[[Apology Grove_01.png]]"
 date: 2011-06-04
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
   - Apology Grove_01.png
   - Apology Grove_02.png

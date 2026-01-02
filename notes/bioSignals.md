@@ -9,7 +9,7 @@ tags:
   - bioart
 status: 🌳 Done
 source:
-category: Teaching
+category: Creative work
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
