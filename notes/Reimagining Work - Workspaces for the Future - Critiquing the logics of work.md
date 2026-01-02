@@ -6,6 +6,7 @@ title: Reimagining Work - Workspaces for the Future - Critiquing the logics of w
 related_projects:
   - "[[Caring for Myself]]"
 parent_node:
+  - "[[Bukas Lab]]"
 date:
 date_started:
 share_to_public: false
