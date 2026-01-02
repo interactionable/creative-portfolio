@@ -1,6 +1,7 @@
 ---
 date_started:
-description: Caring for Myself
+title: Caring for Myself
+description: Lorem ipsum
 tags:
   - project
   - health
@@ -11,7 +12,6 @@ priority: 🔺
 parent_node:
 genAI_chat_URL:
 googledrive_URL:
-title: Caring for myself
 date: 2025-06-02
 share_to_public: false
 thumbnail_URL: "[[DiegoPrototyping.jpeg]]"
