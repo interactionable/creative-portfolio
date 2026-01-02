@@ -54,10 +54,10 @@ tags: [ai, design, research]
 ## 🔧 **Configuration**
 
 Edit top of `portfolio.html`:
-const GITHUB_OWNER = 'interactionable';
-const GITHUB_REPO = 'creative-portfolio';
-const GITHUB_BRANCH = 'main';
-const NOTES_FOLDER = 'notes';
+const GITHUB_OWNER = 'YOUR GITHUB ACCOUNT NAME';
+const GITHUB_REPO = 'REPOSITORY';
+const GITHUB_BRANCH = 'BRANCH';
+const NOTES_FOLDER = 'FOLDER FOR NOTES';
 
 ## 📈 **Node Sizing Logic**
 
