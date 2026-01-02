@@ -15,7 +15,7 @@ parent_node:
 description: (THIS MUST BE FILLED IN)
 title:
 date:
-share_to_public: true
+share_to_public: false
 thumbnail_URL:
 public_URL:
 googledrive_URL:

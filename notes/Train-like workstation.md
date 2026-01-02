@@ -10,7 +10,7 @@ parent_node:
   - "[[Reimagining Work - Workspaces for the Future - Critiquing the logics of work]]"
 date:
 date_started:
-share_to_public: true
+share_to_public: false
 thumbnail_URL:
 public_URL:
 tags:

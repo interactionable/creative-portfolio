@@ -13,7 +13,7 @@ title:
 related_projects:
   - "[[Caring for Nanay]]"
 date:
-share_to_public: true
+share_to_public: false
 thumbnail_URL:
 public_URL:
 googledrive_URL:
