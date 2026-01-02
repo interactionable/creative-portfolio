@@ -8,7 +8,7 @@ parent_node:
   - "[[Caring for Nanay]]"
 date:
 date_started:
-share_to_public: true
+share_to_public: false
 thumbnail_URL:
 public_URL:
 tags:

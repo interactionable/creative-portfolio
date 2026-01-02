@@ -490,7 +490,7 @@
     
     document.getElementById('modalTitle').textContent = project.title;
     document.getElementById('modalCategory').textContent = project.category;
-    document.getElementById('modalStatus').textContent = project.status;
+    <!--YOOHOO hiding project status for now document.getElementById('modalStatus').textContent = project.status;-->
     document.getElementById('modalDate').textContent = project.date ? project.date.raw : '';
     document.getElementById('modalDescription').textContent = project.description;
     
@@ -780,8 +780,8 @@
             const content = document.createElement('div');
             content.style.cssText = 'flex: 1;';
             content.innerHTML = `
-                <div class="timeline-title">${project.title}</div>
-                <div class="timeline-meta">${project.category} • ${project.status}</div>
+                <div class="timeline-title">↗ ${project.title}</div>
+                <div class="timeline-meta">${project.category}<!--YOOHOO - hiding project status for now • ${project.status} --></div>
                 <div class="timeline-description">${project.description}</div>
             `;
 
