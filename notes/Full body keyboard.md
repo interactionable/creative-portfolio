@@ -1,23 +1,20 @@
 ---
 status: 🫘 Not started
 description: (THIS MUST BE FILLED IN)
-category: Design
-title: Lying Down Desk
+category: Creative work
+title: Full body keyboard
 related_projects:
   - "[[Caring for Myself]]"
-  - "[[Get organized]]"
 parent_node:
   - "[[Reimagining Work - Workspaces for the Future - Critiquing the logics of work]]"
 date:
 date_started:
-share_to_public: false
+share_to_public: true
 thumbnail_URL:
 public_URL:
 tags:
   - project
-  - humor
-  - ergonomics
-  - embodiment
+  - futures
 source:
 priority: 🔺
 genAI_chat_URL:

@@ -1,8 +1,8 @@
 ---
 status: 🫘 Not started
 description: (THIS MUST BE FILLED IN)
-category: Design
-title: Lying Down Desk
+category: (Uncategorized)
+title: Train-like workstation
 related_projects:
   - "[[Caring for Myself]]"
   - "[[Get organized]]"
@@ -10,20 +10,17 @@ parent_node:
   - "[[Reimagining Work - Workspaces for the Future - Critiquing the logics of work]]"
 date:
 date_started:
-share_to_public: false
+share_to_public: true
 thumbnail_URL:
 public_URL:
 tags:
   - project
-  - humor
-  - ergonomics
-  - embodiment
 source:
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
 notebookLLM_URL:
-perplexity_URL:
+perplexity_URL: https://www.perplexity.ai/search/so-i-find-that-i-can-really-co-tUd3T8i5R1OjcBDTjDNqiw
 chatGPT_URL:
 UID:
 ---
