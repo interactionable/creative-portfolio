@@ -8,7 +8,7 @@ thumbnail_URL: "[[Ekosi Eksi_01.png]]"
 date: 2016-07-01
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
   - Ekosi Eksi_01.png
 date_started:

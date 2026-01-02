@@ -9,7 +9,7 @@ tags:
   - space
 status: 🌳 Done
 source:
-category: Research and creative work
+category: Creative work
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:

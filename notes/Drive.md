@@ -6,7 +6,7 @@ thumbnail_URL: "[[Drive_01.png]]"
 date: 2007-07-19
 status: 🌳 Done
 share_to_public: true
-category: Teaching
+category: Creative work
 images:
   - Drive_01.png
 date_started:

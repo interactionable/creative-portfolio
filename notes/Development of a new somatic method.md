@@ -6,7 +6,7 @@ tags:
   - embodiment
 status: 🫘 Not started
 source:
-category: Teaching
+category: Research
 priority: 🔺
 description: Development of a new somatic method
 title:
