@@ -1,22 +1,21 @@
 ---
-date_started:
-tags:
-  - ISDR
-  - project
-  - embodiment
 status: 🫘 Not started
-source:
+description: Duplicating exactly what they were doing.
 category: Research
-priority: 🔺
-description: Development of a new somatic method
-title:
+title: Extreme Mirroring
 related_projects:
-  - "[[Haplos]]"
 parent_node:
+  - "[[Get to know Nanay better]]"
 date:
+date_started:
 share_to_public: false
 thumbnail_URL:
 public_URL:
+tags:
+  - project
+  - durational
+source:
+priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
 notebookLLM_URL:
@@ -115,62 +114,6 @@ UID:
 
 > [!NOTE]- # Metadata
 > ## Suggested tags
-> #methods
-> #theory
-> #reflection
-> #analysis
-> #category/professionaldevelopment
-> #category/research-and-creativework
-> #category/teaching
-> #category/publicservice
-> #category/admin
-
-# Other notes and tasks
-* [ ] Get back into the Feldenkrais Method
-	* [ ] Schedule a solid week of doing the Frank Wildman stuff
-	* [ ] Set up my #ISDR notebook 
-		* [ ] Tag stuff from my previous Evernote entries
-			* [x] Important my Evernote 🔺 ✅ 2025-06-19
-	* [ ] Ask ChatGPT to help me structure my methodology for the development of the new somatic method (codename: tamad method)
-	
-
-# Other todo
-> [!check] Other to do
-> ```tasks
-> description includes {{query.file.filenameWithoutExtension}}
-> not done 
-
-# Notes
-
-
-# Mentions
-
-> [!CITE] BLOCKS
->```dataviewjs
-> const target = dv.current().file.name; // Name of the note you want to find references to
-> const files = dv.pages().where(p => p.file.name !== target);
-> 
-> for (let page of files) {
->   const content = await dv.io.load(page.file.path);
->  const lines = content.split("\n");
-> 
->   const matches = lines.filter(line => line.includes(`[[${target}]]`));
->   if (matches.length > 0) {
->     dv.header(3, page.file.name);
->     for (let m of matches) {
->       dv.paragraph(`> ${m}`);
->    }
->  }
-> }
-> ```
-
-> [!CITE]- BACKLINKS
-> ```dataview
-> list
-> where contains(file.outlinks, this.file.link)
-
-# Metadata
-> [!example] Suggested tags
 > #methods
 > #theory
 > #reflection

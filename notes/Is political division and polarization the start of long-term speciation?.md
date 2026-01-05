@@ -1,22 +1,20 @@
 ---
-date_started:
-tags:
-  - ISDR
-  - project
-  - embodiment
 status: 🫘 Not started
-source:
-category: Research
-priority: 🔺
-description: Development of a new somatic method
+description: (THIS MUST BE FILLED IN)
+category: (Uncategorized)
 title:
 related_projects:
-  - "[[Haplos]]"
 parent_node:
 date:
+date_started:
 share_to_public: false
-thumbnail_URL:
+thumbnail_URL: "[[stickynote_speciation.jpg]]"
 public_URL:
+tags:
+  - project
+  - futures
+source:
+priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
 notebookLLM_URL:
@@ -24,7 +22,7 @@ perplexity_URL:
 chatGPT_URL:
 UID:
 ---
-
+![[stickynote_speciation.jpg]]
 > [!NOTE]+ # Todo 
 > - [x] Todo 1
 > - [x] Todo 2
@@ -115,62 +113,6 @@ UID:
 
 > [!NOTE]- # Metadata
 > ## Suggested tags
-> #methods
-> #theory
-> #reflection
-> #analysis
-> #category/professionaldevelopment
-> #category/research-and-creativework
-> #category/teaching
-> #category/publicservice
-> #category/admin
-
-# Other notes and tasks
-* [ ] Get back into the Feldenkrais Method
-	* [ ] Schedule a solid week of doing the Frank Wildman stuff
-	* [ ] Set up my #ISDR notebook 
-		* [ ] Tag stuff from my previous Evernote entries
-			* [x] Important my Evernote 🔺 ✅ 2025-06-19
-	* [ ] Ask ChatGPT to help me structure my methodology for the development of the new somatic method (codename: tamad method)
-	
-
-# Other todo
-> [!check] Other to do
-> ```tasks
-> description includes {{query.file.filenameWithoutExtension}}
-> not done 
-
-# Notes
-
-
-# Mentions
-
-> [!CITE] BLOCKS
->```dataviewjs
-> const target = dv.current().file.name; // Name of the note you want to find references to
-> const files = dv.pages().where(p => p.file.name !== target);
-> 
-> for (let page of files) {
->   const content = await dv.io.load(page.file.path);
->  const lines = content.split("\n");
-> 
->   const matches = lines.filter(line => line.includes(`[[${target}]]`));
->   if (matches.length > 0) {
->     dv.header(3, page.file.name);
->     for (let m of matches) {
->       dv.paragraph(`> ${m}`);
->    }
->  }
-> }
-> ```
-
-> [!CITE]- BACKLINKS
-> ```dataview
-> list
-> where contains(file.outlinks, this.file.link)
-
-# Metadata
-> [!example] Suggested tags
 > #methods
 > #theory
 > #reflection
