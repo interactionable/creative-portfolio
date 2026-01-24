@@ -5,7 +5,7 @@ category: (Uncategorized)
 title: SEADS Charter
 related_projects:
 parent_node:
-  - "[[SEADS]]"
+  - "[[Space Ecologies Art and Design (SEADS)]]"
 date:
 date_started:
 share_to_public: true
