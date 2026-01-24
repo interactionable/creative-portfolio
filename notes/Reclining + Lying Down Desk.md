@@ -2,7 +2,7 @@
 status: 🫘 Not started
 description: (THIS MUST BE FILLED IN)
 category: Design
-title: Lying Down Desk
+title: Reclining + Lying Down Desk
 related_projects:
   - "[[Caring for Myself]]"
   - "[[Get organized]]"

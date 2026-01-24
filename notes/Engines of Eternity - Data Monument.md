@@ -4,7 +4,7 @@ description: |+
   This project led by members of the SEADS collective is part of the Ēngines of Ēternity collection of projects (https://seads.network/project/engines-of-eternity).  I contributed to the high-level conceptualization of these graphic artworks that evolve over multiple space missions and are mathematically translated into 3D printed parametric sculptures. The data monument consists of the growing assemblage of all these sculptures that physically represent the ongoing evolution of Ēngines of Ēternity during its movement between Earth and space.
 
 public_URL: https://seads.network/project/ēngines-of-ēternity-data-monument
-thumbnail_URL: "[[Ēngines of Ēternity_ Data Monument Proje_01.png]]"
+thumbnail_URL: "[[Engines of Eternity_ Data Monument Proje_01.png]]"
 date: 2023-01-31
 status: 🌳 Done
 share_to_public: true
@@ -129,7 +129,7 @@ chatGPT_URL:
 > #category/publicservice
 > #category/admin
 
-![[Ēngines of Ēternity_ Data Monument Proje_01.png]]
+![[Engines of Eternity_ Data Monument Proje_01.png]]
 
 # Ēngines of Ēternity: Data Monument Project (Part of the Ēngines of Ēternity research and creative program)
 

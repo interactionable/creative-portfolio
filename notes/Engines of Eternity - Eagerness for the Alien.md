@@ -2,7 +2,7 @@
 title: Engines of Eternity - Eagerness for the Alien
 description: A multichannel video installation that reimagines alien communication through AI-generated speculative language and rotifer biology. Exhibited at Motorenhalle, Dresden (2023) as part of SEADS’ ongoing Ēngines of Ēternity series.
 public_URL: https://seads.network/project/engines-of-eternity-eagerness-for-the-alien
-thumbnail_URL: "[[Ēngines of Ēternity_ Eagerness for the A_01.png]]"
+thumbnail_URL: "[[Engines of Eternity_ Eagerness for the A_01.png]]"
 date: 2022-04-25
 status: 🌳 Done
 share_to_public: true
@@ -125,7 +125,7 @@ chatGPT_URL:
 > #category/publicservice
 > #category/admin
 
-![[Ēngines of Ēternity_ Eagerness for the A_01.png]]
+![[Engines of Eternity_ Eagerness for the A_01.png]]
 
 # Ēngines of Ēternity: Eagerness for the Alien. Video essay. Co-created by A. Vermeulen and D. Maranan. 
 

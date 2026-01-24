@@ -4,7 +4,7 @@ description: |-
   Ēngines of Ēternity: Galíng is an interactive art installation commissioned for Curiocity Brisbane 2021, a major Australian festival celebrating the fusion of science, art, and technology. The work invites audiences to engage with the remarkable life process of the rotifera, a microscopic aquatic animal known for its astonishing ability to survive extreme dehydration by fully disintegrating and later restoring its DNA—sometimes incorporating foreign genetic material from its surroundings. This unique evolutionary strategy becomes a poetic metaphor for resilience, adaptation, and transformation.
   <br/><br/>Visitors peer into sculptural cylinders and activate sonic interactions, where their voices serve as symbolic DNA strands that help "heal" and evolve the digital rotifers, turning scientific insight into a visceral and participatory experience. Galíng is the second work in the Ēngines of Ēternity series by the transdisciplinary collective SEADS. The series began in 2019, when SEADS launched a visual artwork and living rotifers to the International Space Station aboard a SpaceX rocket, in collaboration with evolutionary biologist Prof. Karine Van Doninck from the University of Namur. Galíng deepens this inquiry by exploring how a single organism can provoke urgent reflection on cultural diversity, hybrid identities, and the myth of immortality.
 public_URL: https://seads.network/project/engines-of-eternity-galing
-thumbnail_URL: "[[Ēngines of Ēternity_ Galíng. Interactive_01.png]]"
+thumbnail_URL: "[[Engines of Eternity_ Galíng. Interactive_01.png]]"
 date: 2021-02-28
 status: 🌳 Done
 share_to_public: true
@@ -129,7 +129,7 @@ chatGPT_URL:
 > #category/publicservice
 > #category/admin
 
-![[Ēngines of Ēternity_ Galíng. Interactive_01.png]]
+![[Engines of Eternity_ Galíng. Interactive_01.png]]
 
 # Ēngines of Ēternity: Galíng. Interactive new media installation. Co-led by D. S. Maranan, R. F. Casauay, J. Moreno, & P. Steyaert (SEADS). 
 
