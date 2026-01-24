@@ -11,7 +11,7 @@ parent_node:
 date:
 date_started:
 share_to_public: false
-thumbnail_URL: "[[LyingDesk.png]]"
+thumbnail_URL: "[[LyingDownDesk.png]]"
 public_URL:
 tags:
   - project
@@ -41,7 +41,7 @@ UID:
 ---
 
 > [!NOTE]+ # Notes
-> ![[LyingDesk.png]]
+> ![[LyingDownDesk.png]]
 ---
 
 > [!NOTE]+ # Mentions
