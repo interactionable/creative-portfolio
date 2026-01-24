@@ -5,7 +5,7 @@ related_projects:
   - "[[Psychopomp I]]"
   - "[[Psychopomp II]]"
   - "[[Psychopomp]]"
-  - "[[Caring for Nanay]]"
+  - "[[Get to know Nanay better]]"
 parent_node:
   - "[[Design for Your Loved Ones - Developing a Design Practice for Love, Care & Dying]]"
 status: 🫘 Not started
