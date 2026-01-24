@@ -41,7 +41,7 @@ UID:
 ---
 
 > [!NOTE]+ # Notes
-> ![[LyingDesk.png]]
+> Lorem ipsum
 ---
 
 > [!NOTE]+ # Mentions

@@ -1,23 +1,17 @@
 ---
-status: 🫘 Not started
+status: 🌿 In progress
 description: (THIS MUST BE FILLED IN)
-category: Design
-title: Lying Down Desk
+category: (Uncategorized)
+title:
 related_projects:
-  - "[[Caring for Myself]]"
-  - "[[Get organized]]"
 parent_node:
-  - "[[Reimagining Work - Workspaces for the Future - Critiquing the logics of work]]"
 date:
 date_started:
-share_to_public: false
+share_to_public: true
 thumbnail_URL:
 public_URL:
 tags:
   - project
-  - humor
-  - ergonomics
-  - embodiment
 source:
 priority: 🔺
 genAI_chat_URL:
@@ -41,7 +35,7 @@ UID:
 ---
 
 > [!NOTE]+ # Notes
-> ![[LyingDesk.png]]
+> Lorem ipsum
 ---
 
 > [!NOTE]+ # Mentions

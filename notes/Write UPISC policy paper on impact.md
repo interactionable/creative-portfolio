@@ -9,7 +9,7 @@ priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
 parent_node:
-  - "[[Prepare to take over ISC]]"
+  - "[[Prepare to transition and takeover ISC Executive Director role]]"
 thumbnail_URL:
 notebookLLM_URL:
 perplexity_URL:

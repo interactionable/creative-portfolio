@@ -1,13 +1,11 @@
 ---
 status: 🫘 Not started
-description: (THIS MUST BE FILLED IN)
-category: Design
-title: Lying Down Desk
+description: Kind of like the Wooster Collective
+category: Creative work
+title: Dokuteatro
 related_projects:
-  - "[[Caring for Myself]]"
-  - "[[Get organized]]"
 parent_node:
-  - "[[Reimagining Work - Workspaces for the Future - Critiquing the logics of work]]"
+  - "[[Design for Your Loved Ones - Developing a Design Practice for Love, Care & Dying]]"
 date:
 date_started:
 share_to_public: false
@@ -15,9 +13,6 @@ thumbnail_URL:
 public_URL:
 tags:
   - project
-  - humor
-  - ergonomics
-  - embodiment
 source:
 priority: 🔺
 genAI_chat_URL:
@@ -27,7 +22,7 @@ perplexity_URL:
 chatGPT_URL:
 UID:
 ---
-
+![[stickynote_dokuteatro.jpg]]
 > [!NOTE]+ # Todo 
 > - [x] Todo 1
 > - [x] Todo 2
@@ -41,7 +36,7 @@ UID:
 ---
 
 > [!NOTE]+ # Notes
-> ![[LyingDesk.png]]
+> Lorem ipsum
 ---
 
 > [!NOTE]+ # Mentions

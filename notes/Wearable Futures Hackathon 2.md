@@ -1,31 +1,37 @@
 ---
-status: 🫘 Not started
-description: (THIS MUST BE FILLED IN)
-category: Design
-title: Lying Down Desk
-related_projects:
-  - "[[Caring for Myself]]"
-  - "[[Get organized]]"
-parent_node:
-  - "[[Reimagining Work - Workspaces for the Future - Critiquing the logics of work]]"
-date:
+title: Wearable Futures Hackathon
+description: Wearable Futures was an exploratory class that I taught at UPOU's BAMS program,  exploring the future through speculative design, wearable technology, and critical fashion practice.
+public_URL: https://bukas.upou.edu.ph/wearable-futures-hackathon-2022
+thumbnail_URL: "[[Wearable Futures Exhibition (Parola Gall_07.png]]"
+date: 2023-04-29
+status: 🌳 Done
+share_to_public: true
+category: Teaching
+images:
+  - Wearable Futures Exhibition (Parola Gall_01.png
+  - Wearable Futures Exhibition (Parola Gall_02.png
+  - Wearable Futures Exhibition (Parola Gall_03.png
+  - Wearable Futures Exhibition (Parola Gall_04.png
+  - Wearable Futures Exhibition (Parola Gall_05.png
+  - Wearable Futures Exhibition (Parola Gall_06.png
+  - Wearable Futures Exhibition (Parola Gall_07.png
+  - Wearable Futures Exhibition (Parola Gall_08.png
 date_started:
-share_to_public: false
-thumbnail_URL:
-public_URL:
 tags:
   - project
-  - humor
-  - ergonomics
-  - embodiment
+  - futures
 source:
 priority: 🔺
 genAI_chat_URL:
 googledrive_URL:
+parent_node:
+  - "[[Bukas Lab]]"
 notebookLLM_URL:
 perplexity_URL:
 chatGPT_URL:
-UID:
+related_projects:
+  - "[[Space Ecologies Art and Design (SEADS)]]"
+  - "[[Haplos]]"
 ---
 
 > [!NOTE]+ # Todo 
@@ -41,7 +47,7 @@ UID:
 ---
 
 > [!NOTE]+ # Notes
-> ![[LyingDesk.png]]
+> Lorem ipsum
 ---
 
 > [!NOTE]+ # Mentions
@@ -127,3 +133,15 @@ UID:
 > #category/teaching
 > #category/publicservice
 > #category/admin
+
+![[Wearable Futures Exhibition (Parola Gall_01.png]]
+
+# Wearable Futures [Exhibition] (Parola Gallery, UP Diliman, 2023)
+
+
+
+A second mounting of the Wearable Futures exhibition was presented at Parola Gallery, UP Diliman, bringing speculative wearables and future-centered clothing design to a wider academic and creative audience.
+
+
+
+[Website](https://bukas.upou.edu.ph/wearable-futures-exhibit)
