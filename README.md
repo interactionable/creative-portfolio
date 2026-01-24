@@ -63,6 +63,9 @@ const NOTES_FOLDER = 'FOLDER FOR NOTES';
 
 size = 8 + (direct_connections × 2.6)
 
+## Synching **
+Run ./sync.sh
+
 ## 🙌 **Credits**
 
 Built through **collaborative vibe-coding** with Perplexity AI.  
