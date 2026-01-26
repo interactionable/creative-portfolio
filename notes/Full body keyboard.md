@@ -10,7 +10,7 @@ parent_node:
 date:
 date_started:
 share_to_public: false
-thumbnail_URL:
+thumbnail_URL: "[[FullBodyKeyboard.png]]"
 public_URL:
 tags:
   - project
@@ -24,7 +24,7 @@ perplexity_URL:
 chatGPT_URL:
 UID:
 ---
-
+![[FullBodyKeyboard.png]]
 > [!NOTE]+ # Todo 
 > - [x] Todo 1
 > - [x] Todo 2
