@@ -22,10 +22,34 @@ perplexity_URL: https://www.perplexity.ai/spaces/7-eleven-store-704-concerns-qBb
 chatGPT_URL:
 UID:
 ---
+# Store surrender todos
 
-> [!NOTE]+ # Todo 
-> - [x] Todo 1
-> - [x] Todo 2
+* [x] File leave ✅ 2026-03-30
+* [x] Send certificate of employment ✅ 2026-04-20
+* [x] Draft letter of termination ✅ 2026-04-20
+* [ ] Send final reminders to Bhelle, Archell, Mary Rose, Jallz about missing documents 
+	* [x] Confirm household members and income ✅ 2026-04-20
+	* [x] Place of birth ✅ 2026-04-20
+	* [x] Confirm whether first person in family to go to college ✅ 2026-04-20
+	* [x] Confirm mother and father details ✅ 2026-04-20
+	* [x] Confirm educational history ✅ 2026-04-20
+	* [x] Attach photo ID ✅ 2026-04-20
+	* [x] Discuss next steps: TOR, birth certificate, admission essay, pay fees, ✅ 2026-04-20
+	* [x] Pasword ✅ 2026-04-20
+* [x] Inform Pet ✅ 2026-04-20
+* [x] Inventory of store owned equipment and supplies: ✅ 2026-04-20
+	* [x] Backlot (steel matting, freezer, 4 shelves, duraboxes, generator, emergency lights, monitor, rice cooker, dish drainer, fire extinguisher, locker) ✅ 2026-04-20
+	* [x] Selling area (printer, office supplies, old cctv) ✅ 2026-04-20
+	* [x] Exterior area (plants, steel) ✅ 2026-04-20
+* [x] Pull out items ✅ 2026-04-20
+	* [x] Fire extinguisher ✅ 2026-04-20
+	* [x]  ✅ 2026-04-20
+* [x] Inform Jallz ✅ 2026-04-20
+* [x] Inform JL, Jhay, and JC ✅ 2026-04-20
+
+
+> [!NOTE]+ # Store surrender todos 
+> 
 >    
 >> [!check]+ # Other todo
 >> ```tasks
