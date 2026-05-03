@@ -19,7 +19,7 @@ thumbnail_URL: "[[ProjectVisualizationMindmap.jpg]]"
 public_URL:
 googledrive_URL:
 notebookLLM_URL:
-perplexity_URL:
+perplexity_URL: https://www.perplexity.ai/search/8b58a193-41fa-4a92-8717-7be4243501e7?sm=d#76
 chatGPT_URL:
 UID:
 ---
